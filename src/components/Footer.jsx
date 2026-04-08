@@ -99,7 +99,7 @@ export default function Footer() {
               <div className="footer-contact-icon">📍</div>
               <div className="footer-contact-details">
                 <h4>Address</h4>
-                <p>IUFA Accounts Academy<br/>Airport Road, Ayikkarapadi -673637</p>
+                <p>IUFA Accounts Academy,<br/> Airport Road,Kondotty-673638</p>
               </div>
             </div>
             <div className="footer-contact-item">

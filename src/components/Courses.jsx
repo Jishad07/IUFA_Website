@@ -10,7 +10,7 @@ export default function Courses() {
       level: "Professional",
       students: "2,500+",
       rating: "4.9",
-      price: "₹50,000",
+    //   price: "₹50,000",
       features: [
         "Financial Accounting",
         "Cost Management",
@@ -165,17 +165,17 @@ export default function Courses() {
                   ))}
                 </ul>
 
-                <div className="course-footer">
-                  <div className="course-price">
-                    <span className="price-label">Course Fee</span>
-                    <span className="price-amount">{course.price}</span>
+                {/* <div className="course-footer"> */}
+                  {/* <div className="course-price"> */}
+                    {/* <span className="price-label">Course Fee</span> */}
+                    {/* <span className="price-amount">{course.price}</span> */}
                   </div>
-                  <button className="course-btn">
+                  {/* <button className="course-btn">
                     Enroll Now
-                  </button>
+                  </button> */}
                 </div>
-              </div>
-            </div>
+            //   </div>
+            // </div>
           ))}
         </div>
 
@@ -190,3 +190,4 @@ export default function Courses() {
     </section>
   );
 }
+
