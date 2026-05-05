@@ -6,8 +6,8 @@ export default function Navbar() {
 
   return (
     <>
-      {/* <nav style={styles.navbar}> */}
-      <nav className="navbar">
+      <nav style={styles.navbar}>
+      {/* <nav className="navbar"> */}
         {/* Logo */}
         <div style={styles.logoContainer}>
           <img src={logo} alt="IUFA Logo" style={styles.logo} />
@@ -15,8 +15,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Menu */}
-        {/* <div style={styles.desktopMenu}> */}
-        <div className="desktopMenu">
+        <div style={styles.desktopMenu}>
           <a href="#who" style={styles.link}>Who Are We</a>
           <a href="#about" style={styles.link}>About Us</a>
           <a href="#courses" style={styles.link}>Courses</a>
@@ -28,7 +27,7 @@ export default function Navbar() {
         {/* Mobile Hamburger */}
         <div
           // style={styles.hamburger}
-          className="hamburger"
+            className="navbar"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <div style={styles.bar}></div>
