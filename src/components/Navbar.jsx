@@ -1,90 +1,3 @@
-
-
-
-
-// import React from "react";
-// import logo from "../assets/images/iufa_logo.jpeg";
-
-// export default function Navbar() {
-//   return (
-//     <nav
-    
-//       style={{
-//         // background: "#111",
-//         // color: "#fff",
-//         // padding: "15px 40px",
-//         // display: "flex",
-//         // justifyContent: "space-between",
-//         // alignItems: "center",
-//         // borderBottom:"10px solid #3409f6ff",
-//         // borderRadius: "50px"
-//              background: "#fff",
-//         color: "#fff",
-//         padding: "15px 40px",
-//         display: "flex",
-//         justifyContent: "space-between",
-//         alignItems: "center",
-//         borderBottom: "10px solid #3409f6ff",
-//         borderRadius: "50px",
-//         position: "fixed",
-//         // top: "20px",
-//         left: "50%",
-//         transform: "translateX(-50%)",
-//         width: "92%",
-//         zIndex: 1000,
-//         boxShadow: "0 6px 20px rgba(0,0,0,0.25)"
-
-//       }}
-//     >
-//       {/* Logo / Name */}
-//       {/* <h2 style={{ margin: 0 }}>IUFA</h2> */}
-// <img
-//   src={logo}
-//   alt="IUFA Logo"
-//   style={{ width: "60px", height: "60px",
-   
-//     borderRadius: "50%",
-//     objectFit: "cover"
-//    }}
-// />
-
-//       {/* Menu */}
-//       <div style={{ display: "flex", alignItems: "center", gap: "20px",}}>
-//         <a href="#who" style={linkStyle}>Who Are We</a>
-//         <a href="#about" style={linkStyle}>About Us </a>
-//         <a href="#courses" style={linkStyle}>Courses</a>
-//         <a href="#resources" style={linkStyle}>Resources</a>
-//         <a href="#contact" style={linkStyle}>Contact Us</a>
-
-//         {/* Apply Button */}
-//         <a href="#contact" style={buttonStyle}>
-//           Get In Touch
-//         </a>
-//       </div>
-//     </nav>
-//   );
-// }
-
-// /* Link Style */
-// const linkStyle = {
-//   color: "#111",
-//   textDecoration: "none",
-//   fontSize: "16px",
-//   fontWeight: "500",
-// };
-
-// /* Button Style */
-// const buttonStyle = {
-//   background: "#00bcd4",
-//   color: "#fff",
-//   padding: "10px 18px",
-//   borderRadius: "6px",
-//   textDecoration: "none",
-//   fontWeight: "600",
-// };
-
-
-
 import React, { useState } from "react";
 import logo from "../assets/images/iufa_logo.jpeg";
 
@@ -93,7 +6,8 @@ export default function Navbar() {
 
   return (
     <>
-      <nav style={styles.navbar}>
+      {/* <nav style={styles.navbar}> */}
+      <nav className="navbar">
         {/* Logo */}
         <div style={styles.logoContainer}>
           <img src={logo} alt="IUFA Logo" style={styles.logo} />
@@ -101,7 +15,8 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Menu */}
-        <div style={styles.desktopMenu}>
+        {/* <div style={styles.desktopMenu}> */}
+        <div className="desktopMenu">
           <a href="#who" style={styles.link}>Who Are We</a>
           <a href="#about" style={styles.link}>About Us</a>
           <a href="#courses" style={styles.link}>Courses</a>
@@ -112,7 +27,8 @@ export default function Navbar() {
 
         {/* Mobile Hamburger */}
         <div
-          style={styles.hamburger}
+          // style={styles.hamburger}
+          className="hamburger"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <div style={styles.bar}></div>
