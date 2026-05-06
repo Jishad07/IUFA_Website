@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "./SuccessStories.css";
 
 export default function SuccessStories() {
   const stories = [

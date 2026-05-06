@@ -58,7 +58,8 @@
 // }
 
 import React, { useState } from "react";
-import "../App.css";
+// import "../App.css";
+import "./Navbar.css";
 import logo from "../assets/images/iufa_logo.jpeg";
 
 export default function Navbar() {

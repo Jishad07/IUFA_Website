@@ -1,6 +1,7 @@
 import React from "react";
 import instituteImg from "../assets/images/iufa_hero_image.jpeg";
-import "../App.css";
+// import "../App.css";
+import "./Hero.css";
 
 export default function Hero() {
   return (

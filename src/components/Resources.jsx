@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "./Resources.css";
 
 export default function Resources() {
   const tools = [
