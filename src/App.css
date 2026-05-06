@@ -153,7 +153,7 @@
 
 
 .hero {
-  min-height: 100%;
+  min-height:100%;
   padding: 120px 20px 80px;
   background-size: cover;
   background-position: center;
@@ -382,13 +382,9 @@
 }
 
 @media (max-width: 768px) {
-   .hero {
-    width: 100%;
-   padding-left: 0;  
-    padding-right: 0;
-  }
+ 
    .hero-overlay {
-    padding: 0 16px;   /* keep text safe from edges */
+    padding: 0 16px; 
   }
 
    .hero-overlay h1 {
