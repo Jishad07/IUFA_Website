@@ -198,7 +198,15 @@ export default function Resources() {
           <div className="resources-cta-content">
             <h3>Ready to Master Accounting Tools?</h3>
             <p>Get hands-on training with the latest accounting software and start your journey to becoming a certified professional</p>
-            <button className="resources-cta-btn">Download Course Brochure</button>
+            {/* <button className="resources-cta-btn">Download Course Brochure</button> */}
+            <a
+  href="/brochure.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="success-cta-btn"
+>
+  Download Course Brochure
+</a>
           </div>
         </div>
       </div>
