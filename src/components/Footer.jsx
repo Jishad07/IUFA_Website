@@ -6,8 +6,15 @@ export default function Footer() {
 
   const handleNewsletterSubmit = (e) => {
     e.preventDefault();
+    const message = `New Newsletter Subscription: ${email}`;
+      window.open(
+    `https://wa.me/917909111009?text=${message}`,
+    "_blank"
+  );
+
+  setEmail("");
     // Handle newsletter subscription
-    alert(`Thank you for subscribing with email: ${email}`);
+alert("Thank you for subscribing!");
     setEmail("");
   };
 
@@ -32,7 +39,7 @@ export default function Footer() {
               <a href="https://www.facebook.com/iufaacademy" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook">
                 <span>f</span>
               </a>
-              <a href="https://www.instagram.com/iufaacademy" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
+              <a href="https://www.instagram.com/iufaaccounts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
                 <span>📷</span>
               </a>
               <a href="#" className="social-link" aria-label="Twitter">

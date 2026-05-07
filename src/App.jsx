@@ -46,6 +46,7 @@ import Resources from "./components/Resources";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import WhatsApp from "./components/WhatsApp";
+import Instagram from "./components/Instagram";
 import "./App.css";
 
 function App() {
@@ -89,6 +90,7 @@ function App() {
 
       {/* WhatsApp Floating Button */}
       <WhatsApp />
+      <Instagram />
     </div>
   );
 }

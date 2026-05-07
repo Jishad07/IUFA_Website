@@ -24,7 +24,7 @@ export default function Navbar() {
           <a href="#courses" className="link">Courses</a>
           <a href="#resources" className="link">Resources</a>
           <a href="#contact" className="link">Contact Us</a>
-          <a href="#contact" className="button">Get In Touch</a>
+          <a href="#contact-form" className="button">Get In Touch</a>
         </div>
 
         {/* Hamburger */}

@@ -139,7 +139,8 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="contact-form-wrapper">
+          {/* <div className="contact-form-wrapper"> */}
+          <div id="contact-form" className="contact-form-wrapper">
             <div className="contact-form">
               <h3 className="form-title">Send Us a Message</h3>
               <form onSubmit={handleSubmit}>
@@ -241,7 +242,10 @@ export default function Contact() {
             <h3>Ready to Start Your Accounting Career?</h3>
             <p>Join thousands of successful professionals who started their journey with IUFA Academy</p>
             <div className="contact-cta-buttons">
-              <button className="contact-cta-btn">Enroll Now</button>
+              {/* <button className="contact-cta-btn">Enroll Now</button> */}
+              <a href="#contact-form" className="contact-cta-btn">
+  Enroll Now
+</a>
               <button className="contact-cta-btn-secondary">Schedule a Visit</button>
             </div>
           </div>
