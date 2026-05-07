@@ -36,7 +36,7 @@
 
 // export default App;
 
-
+import React, { useState } from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
@@ -47,9 +47,17 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import WhatsApp from "./components/WhatsApp";
 import Instagram from "./components/Instagram";
+import SplashScreen from "./components/SplashScreen";
 import "./App.css";
 
 function App() {
+   const [loading, setLoading] = useState(true);
+     const handleSplashFinish = () => {
+    setLoading(false);
+  };
+    if (loading) {
+    return <SplashScreen onFinish={handleSplashFinish} />;
+  }
   return (
     <div className="app">
       {/* Navbar */}
