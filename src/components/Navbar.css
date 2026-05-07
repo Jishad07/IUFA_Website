@@ -39,7 +39,8 @@
 
 .brand {
   margin: 0;
-  color:#0f172a;
+  /* color:#0f172a; */
+  color: #2e3192;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.5px;

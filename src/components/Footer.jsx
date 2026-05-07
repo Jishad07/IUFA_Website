@@ -25,7 +25,7 @@ alert("Thank you for subscribing!");
           {/* Brand Section */}
           <div className="footer-brand">
             <div className="footer-logo">
-              <div className="footer-logo-icon">IU</div>
+              <div className="footer-logo-icon">IUFA</div>
               <div className="footer-logo-text">
                 <h3>IUFA Academy</h3>
                 <p>Accounts Excellence</p>

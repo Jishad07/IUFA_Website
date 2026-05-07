@@ -173,6 +173,7 @@
 .form-submit {
   width: 100%;
   background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  /* background-color: #2e3192; */
   color: white;
   border: none;
   padding: 15px 24px;
