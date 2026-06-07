@@ -6,112 +6,134 @@ export default function Courses() {
   const courses = [
     {
       id: 1,
-      title: "ICPA - Certified Professional Accountant",
+      title: "ICPA - INTERGRATED CERTIFICATION IN PRACTICAL ACCOUNTING",
       duration: "6 Months",
       level: "Professional",
-      students: "2,500+",
+      students: "100+",
       rating: "4.9",
     //   price: "₹50,000",
       features: [
-        "Financial Accounting",
-        "Cost Management",
-        "Taxation",
-        "Auditing Basics",
-        "ERP Software"
+        "FUNDAMENTAL ACCOUNTING",
+        "TALLY PRIME",
+        "GST REGISTRATION",
+        "GST FILING PROCESS",
+        "INCOME TAX FILING",
+        "LABOUR LAW",
+        "UAE VAT",
+        "MS EXCEL",
       ],
       icon: "📊",
       color: "#3b82f6"
     },
     {
       id: 2,
-      title: "IFA - Industrial Financial Accounting",
+      title: "IFA - INTERNATIONAL FINANCIAL ACCOUNTING",
       duration: "6 Months",
       level: "Advanced",
       students: "1,800+",
       rating: "4.8",
       price: "₹40,000",
       features: [
-        "Advanced Accounting",
-        "Business Finance",
-        "Inventory Management",
-        "Payroll Systems",
-        "Tally Prime"
+        "FUNDAMENTAL ACCOUNTING",
+        "TALLY PRIME",
+        "CORPORATE TAX",
+        "UAE VAT REGISTRATION",
+        "UAE VAT FILING WITHSIMULATION SOFTWARE",
+        "MS EXCELL"
       ],
       icon: "💼",
       color: "#10b981"
     },
     {
       id: 3,
-      title: "DPA - Diploma in Professional Accounting",
+      title: "DPA - DIPLOMA IN PRACTICAL ACCOUNTING",
       duration: "6 Months",
       level: "Foundation",
       students: "3,200+",
       rating: "4.7",
       price: "₹40,000",
       features: [
-        "Basic Accounting",
-        "Computerized Accounting",
-        "GST Basics",
-        "TDS Concepts",
-        "MS Office Skills"
+        "FUNDAMENTAL ACCOUNTING",
+        "TALLY PRIME",
+        "GST REGISTRATION",
+        "GST FILING PROCESS",
+        "INCOME TAX REGISTRATION",
+        "INCOMETAX FILING",
+        "LABOUR LAW",
+        "MS EXCEL"
       ],
       icon: "📈",
       color: "#f59e0b"
     },
     {
       id: 4,
-      title: "MCPA - Master Certified Professional Accountant",
+      title: "MCPA - MASTER CERTIFICATION PROFESSIONAL ACCOUNTING",
       duration: "6 Months",
       level: "Expert",
       students: "950+",
       rating: "5.0",
       price: "₹80,000",
       features: [
-        "Strategic Financial Management",
-        "International Accounting",
-        "Forensic Accounting",
-        "Financial Modeling",
-        "SAP FICO"
+        "ACCOUNT& FINANCE MANAGEMENT",
+        "UAE VAT",
+        "BUDGETING",
+        "UAE CORPORATE TAX",
+        "IFRS",
+        "BUSINESS LAW",
+        "GST",
+        "INCOME TAX",
+        "DOCUMENTATION & REGISTRATION",
+        "ACCOUNTING SOFTWARE TRAINING",
+        "ACCOUNTS&FINANCE MANAGEMENT",
+        "ACCOUNTS ANALYSIS&FORECASTING",
+        "AUDIT COORDINATION",
+        "PAYROLL MANAGEMENT",
+        "BUSINESS VALUATION"
       ],
       icon: "🎯",
       color: "#ef4444"
     },
     {
       id: 5,
-      title: "SAP FICO Certification",
+      title: "SAP - SYSTEM,APPLICATIONS,AND PRODUCT IN DATA PROCESSING)",
       duration: "2 Months",
       level: "Specialized",
       students: "1,200+",
       rating: "4.9",
       price: "₹40,000",
       features: [
-        "SAP Configuration",
-        "FI Module",
-        "CO Module",
-        "Real-time Projects",
-        "Certification Prep"
+        "INTRODUCTION TO SAP",
+        "ENTERPRISE STRUCTURE",
+        "ASSIGNMENT",
+        "GST FILING PROCESS",
+        "CREATION OF G/L ACCOUNT",
+        "CONTROLLING",
+        "DOCUMENT REVERSAL,PARKING,SAMPLE & HOLD",
+        "ACCOUNTS PAYABLE",
+        "ACCOUNT RECEIVABLE"
       ],
       icon: "🔧",
       color: "#8b5cf6"
     },
-    {
-      id: 6,
-      title: "Taxation Expert Program",
-      duration: "3 Months",
-      level: "Specialized",
-      students: "1,500+",
-      rating: "4.8",
-      price: "₹30,000",
-      features: [
-        "Income Tax",
-        "GST Compliance",
-        "Tax Planning",
-        "Tax Audit",
-        "E-filing Procedures"
-      ],
-      icon: "🧾",
-      color: "#06b6d4"
-    }
+
+    // {
+    //   id: 6,
+    //   title: "Taxation Expert Program",
+    //   duration: "3 Months",
+    //   level: "Specialized",
+    //   students: "1,500+",
+    //   rating: "4.8",
+    //   price: "₹30,000",
+    //   features: [
+    //     "Income Tax",
+    //     "GST Compliance",
+    //     "Tax Planning",
+    //     "Tax Audit",
+    //     "E-filing Procedures"
+    //   ],
+    //   icon: "🧾",
+    //   color: "#06b6d4"
+    // }
   ];
 
   return (

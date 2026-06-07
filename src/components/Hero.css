@@ -178,6 +178,7 @@
 
 .hero-btn.primary {
   background: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);
+  /* background: linear-gradient(135deg, #2e3192 0%, #ed1b24 100%); */
 
   color: white;
 

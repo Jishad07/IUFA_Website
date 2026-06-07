@@ -62,6 +62,7 @@
 
 .button {
   background: linear-gradient(135deg, #2563eb, #06b6d4);
+/* background: linear-gradient(135deg, #2e3192, #ed1b24); */
   color: #fff;
   padding: 12px 20px;
   border-radius: 999px;

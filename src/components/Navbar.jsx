@@ -60,7 +60,7 @@ export default function Navbar() {
           className="drawerBtn"
           onClick={() => setMenuOpen(false)}
         >
-          Get In Touch
+          Get In Touch    
         </a>
       </div>
     </>
